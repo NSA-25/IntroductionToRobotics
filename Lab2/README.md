@@ -4,4 +4,4 @@
 
 Picture: ![Setup](Setup_Lab2.jpg)
 
-Video:
+Video: https://youtu.be/SzfyZZae-CI
