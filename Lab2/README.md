@@ -2,6 +2,6 @@
 
 # Homework 1: Controlling an RGB LED using potentiometers
 
-Setup:
+Picture: ![Setup](Setup_Lab2.jpg).
 
 Video:
