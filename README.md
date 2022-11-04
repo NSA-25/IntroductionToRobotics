@@ -17,5 +17,5 @@ State 3: red for cars, green for people and a beeping sound is used at a constan
 State 4: red for cars, blinking green for people. The beeping sound is faster than in state 3. Lasts 4 seconds.
 
 After state 4 it goes to state 1 and stays there until the button is pressed again.
-LEDs resistors have 2k and the buzzer has one with 5k.
+LEDs' resistors have 2k and the buzzer has one with 5k.
 
