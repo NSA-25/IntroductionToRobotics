@@ -213,7 +213,7 @@ void setup() {
 }
 
 void loop() {
-	xValue = analogRead(pinX);
+  xValue = analogRead(pinX);
   yValue = analogRead(pinY);
   swState = digitalRead(pinSW);
   blinkCurrentMillis = millis();
