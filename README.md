@@ -32,6 +32,7 @@ State Two: Initiated after a button press in state one. The current segment will
 The user can turn the current segment on or off using the joystick (going up to turn it on or down to turn it off).
 
 List of possible moves:
+
 a: left-down to f; right-down to b; down to g
 
 f: up-right to a; down-right to g; right to b; down to e
