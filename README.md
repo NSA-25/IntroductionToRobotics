@@ -33,11 +33,18 @@ The user can turn the current segment on or off using the joystick (going up to 
 
 List of possible moves:
 a: left-down to f; right-down to b; down to g
+
 f: up-right to a; down-right to g; right to b; down to e
+
 b: up-left to a; down-left to g; left to f; down to c
+
 g: up-left to f; up-right to b; down-left to e; down-right to c; up to a; down to d;
+
 e: up-right to g; down-right to d; right to c; up to f
+
 c: up-left to g; down-left to d; left to e; up to b; right to dp
+
 d: left-up to e; right-up to c; up to g
+
 dp: left to c
 
