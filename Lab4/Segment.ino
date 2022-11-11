@@ -63,6 +63,7 @@ int pinEPosition = 4;
 int pinCPosition = 5;
 int pinDPosition = 6;
 int pinDpPosition = 7;
+int nonExistantPin = -1;
 
 int currentSeg = pinDpPosition;
 int blinkLedPin = pinDP;
@@ -95,56 +96,56 @@ int directionMatrix[segSize][segSize] = {
 // dp: left to c
 
 void moveUp() {
-  if (yValue > maxThreshold && joyMoved == false && directionMatrix[currentSeg][up] != -1) {
+  if (yValue > maxThreshold && joyMoved == false && directionMatrix[currentSeg][up] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][up];
   }
 }
 
 void moveDown() {
-  if (yValue < minThreshold && joyMoved == false && directionMatrix[currentSeg][down] != -1) {
+  if (yValue < minThreshold && joyMoved == false && directionMatrix[currentSeg][down] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][down];
   }
 }
 
 void moveLeft() {
-  if (xValue < minThreshold && joyMoved == false && directionMatrix[currentSeg][left] != -1) {
+  if (xValue < minThreshold && joyMoved == false && directionMatrix[currentSeg][left] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][left];
   }
 }
 
 void moveRight() {
-  if (xValue > maxThreshold && joyMoved == false && directionMatrix[currentSeg][right] != -1) {
+  if (xValue > maxThreshold && joyMoved == false && directionMatrix[currentSeg][right] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][right];
   }
 }
 
 void moveUpLeft() {
-  if (yValue > diagonalMaxThreshold && xValue < diagonalMinThreshold && joyMoved == false && directionMatrix[currentSeg][upLeft] != -1) {
+  if (yValue > diagonalMaxThreshold && xValue < diagonalMinThreshold && joyMoved == false && directionMatrix[currentSeg][upLeft] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][upLeft];
   }
 }
 
 void moveUpRight() {
-  if (yValue > diagonalMaxThreshold && xValue > diagonalMaxThreshold && joyMoved == false && directionMatrix[currentSeg][upRight] != -1) {
+  if (yValue > diagonalMaxThreshold && xValue > diagonalMaxThreshold && joyMoved == false && directionMatrix[currentSeg][upRight] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][upRight];
   }
 }
 
 void moveDownLeft() {
-  if (yValue < diagonalMinThreshold && xValue < diagonalMinThreshold && joyMoved == false && directionMatrix[currentSeg][downLeft] != -1) {
+  if (yValue < diagonalMinThreshold && xValue < diagonalMinThreshold && joyMoved == false && directionMatrix[currentSeg][downLeft] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][downLeft];
   }
 }
 
 void moveDownRight() {
-  if (yValue < diagonalMinThreshold && xValue > diagonalMaxThreshold && joyMoved == false && directionMatrix[currentSeg][downRight] != -1) {
+  if (yValue < diagonalMinThreshold && xValue > diagonalMaxThreshold && joyMoved == false && directionMatrix[currentSeg][downRight] != nonExistantPin) {
     joyMoved = true;
     currentSeg = directionMatrix[currentSeg][downRight];
   }
