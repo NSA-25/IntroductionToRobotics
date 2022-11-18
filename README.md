@@ -49,3 +49,15 @@ d: left-up to e; right-up to c; up to g
 
 dp: left to c
 
+### Homework 4: [Controlling a 4 7-segment display](/Lab5)
+
+In this project a joystick is used to travel through a 4 7-segment display. Four displays can be selected using the x-axis of the joystick and after
+selection (joystick button press) their values can be increased or decreased selectively from 0 to F (Segments hold hexa values).
+
+System's states:
+State One: This is the default state and can be initiated after a button press in state two. The joystick can be used to travel across the display, the
+current position being the display that has its decimal point blinking. A short button press will toggle state two, while a long press will restart 
+the display (turning all segments's values to 0 and changing the current position to the rightmost display).
+
+State Two: Initiated after a button press in state one. The current display's decimal point will turn on completely.
+The user can increase of decrease the value in the display by 1 (from 0 to F).
