@@ -3,4 +3,4 @@ matrix display with the goal of reaching another small blinking dot.
 
 Picture: ![Setup](menu.jpg)
 
-Video: 
+Video: https://www.youtube.com/watch?v=cS6JcniYupE
