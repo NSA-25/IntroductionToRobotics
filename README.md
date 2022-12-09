@@ -61,3 +61,5 @@ the display (turning all segments's values to 0 and changing the current positio
 
 State Two: Initiated after a button press in state one. The current display's decimal point will turn on completely.
 The user can increase of decrease the value in the display by 1 (from 0 to F).
+
+### Homework 5: [Basic menu with a minigame](/Menu)
