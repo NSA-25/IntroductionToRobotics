@@ -63,3 +63,7 @@ State Two: Initiated after a button press in state one. The current display's de
 The user can increase of decrease the value in the display by 1 (from 0 to F).
 
 ### Homework 5: [Basic menu with a minigame](/Menu)
+
+In this assignment there's a small basic menu that's going to be expanded in the final project. It has a main page, a setting one, an about me and one that
+shows top scores.
+There's also a minigame similiar to Snake, where a dot is moved around the matrix with the goal of catching a blinking stationary dot (the food).
